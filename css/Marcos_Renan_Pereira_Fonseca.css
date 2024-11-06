@@ -31,6 +31,14 @@ nav{
 .nav-link{
     color: var(--marelo);
 }
+.gradient1{
+    height: 20vh;
+    background-color: #000000;
+    background-image: linear-gradient(180deg, #000000 0%, #000000 17%, #ffea20 100%);
+}
+.nav-link{
+    font-size: 17px;
+}
 main{
     background-color: var(--marelo);
 }
@@ -38,19 +46,50 @@ main{
     transition: 0.3s;
     color: var(--branco);
 }
+.navbar-brand img{
+    height: 300px;
+    width: 300px;
+}
+.intro{
+    justify-content: center;
+    display: flex;
+    background-color: var(--marelo);
+    margin: auto;
+}
+.intro div p{
+    background-color: var(--marelo);
+    font-size: 20px;
+    margin: 0 auto;
+}
 .carroça{
     background-color: #FFEA20;
 }
 .carroça div{
-    margin-top: 4vh;
+    margin-top: 2vh;
+}
+.titulo{
+    font-weight: 400;
+    min-width: 220px;
+}
+p{
+    font-size: 20px;
+    line-height: 5vh;
 }
 
-p{
-    font-size: 17px;
+.gradient2{
+    height: 20vh;
+    background-color: #ffea20;
+    background-image: linear-gradient(180deg, #ffea20 0%, #ffea20 45%, #000000 100%);
+
+}
+footer hr{
+    color: var(--marelo);
+    margin: 0 10vh 0 10vh;
 }
 
 .footer-end{
     background-color: var(--preto);
+    padding-bottom: 9vh;
      
 }
 
@@ -59,8 +98,8 @@ footer ul{
     display: flex;
     justify-content: space-evenly;
     
-    height: 15vh;
-    padding-top: 5vh ;
+    height: 8vh;
+    padding-top: 2vh ;
     margin-top: 5vh;
 }
 
@@ -73,3 +112,8 @@ footer ul li a:hover{
     transition: 0.3s;
     color: var(--branco);
 }
+.endereço li p{
+    color: var(--marelo);
+    font-size: 16px;
+}
+
