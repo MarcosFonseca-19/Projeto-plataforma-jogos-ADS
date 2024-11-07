@@ -57,6 +57,9 @@ main{
     padding-left: 13vw;
     padding-top: 5vh;
 }
+.xadrez-t{
+    padding-left: 40px;
+}
 .xadrez figure img{
     width: 110%;
 
@@ -64,9 +67,11 @@ main{
 .dama{
     padding-left:13vw ;
 }
-.dama-img figure img{
+.dama-img{
     
-    margin-top: 7vh;
+    width: 350px;
+    margin-left: 5vh;
+    margin-top:13vh ;
     
     
 }
@@ -78,10 +83,12 @@ p{
     font-size: 20px;
     line-height:5vh;
 }
+
+
 .p-jogos{
     font-size: 20px;
     line-height: 30px;
-    padding: 0 3vh 0 3vh;
+    padding: 0 5vh 0 5vh;
 }
 .p-jogos2{
     font-size: 20px;
